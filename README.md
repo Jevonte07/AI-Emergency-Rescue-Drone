@@ -27,3 +27,11 @@ mobile_app/ – Android SOS application
 docs/ – project documentation
 
 ## Running the Server
+
+## Advanced AI Features
+
+- Victim Face Recognition
+- Real-time Threat Detection (YOLO)
+- Victim Tracking
+- Drone GPS Navigation
+- Live Video Streaming
