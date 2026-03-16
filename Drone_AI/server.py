@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import face_recognition_module
 import victim_tracking
+import emotion_detection
 
 app = Flask(__name__)
 
@@ -51,6 +52,15 @@ def identify_victim():
 
     return jsonify({
         "identified": result
+    })
+
+@app.route("/emotion", methods=["GET"])
+def detect_emotion():
+
+    emotion_detection.detect_emotion()
+
+    return jsonify({
+        "status": "Emotion detection running"
     })
 
 

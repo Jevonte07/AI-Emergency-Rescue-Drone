@@ -35,3 +35,12 @@ docs/ – project documentation
 - Victim Tracking
 - Drone GPS Navigation
 - Live Video Streaming
+
+## AI Capabilities
+
+- Face Recognition (Identify Victim)
+- Threat Detection (YOLO)
+- Emotion Detection (DeepFace)
+- Victim Tracking
+- Drone Navigation
+- Live Video Streaming

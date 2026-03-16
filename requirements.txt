@@ -4,3 +4,5 @@ face-recognition
 numpy
 imutils
 ultralytics
+deepface
+tensorflow
