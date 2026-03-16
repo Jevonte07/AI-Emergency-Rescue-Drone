@@ -44,4 +44,19 @@ public class SOSActivity extends AppCompatActivity {
         });
 
     }
+
+    private double calculateETA(double distanceKm){
+
+        double droneSpeed = 40.0;
+
+        return distanceKm / droneSpeed;
+    }
+
+    private void callEmergency(){
+
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:100"));
+
+        startActivity(intent);
+    }
 }
